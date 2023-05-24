@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+        <div class="grid justify-items-center">
+        <main class="">
+            <div class="bg-gray-100 p-10">
+                <p class="text-xl mb-8 ">Cart totals</p>
+                <div class="flex gap-60">
+                    <div>
+                        <p class="mb-8">SUBTOTAL</p>
+                        <p>SHIPPING</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-600 mb-8">N65,000</p>
+                        <p class="text-gray-600 mb-16 w-[50%]">Shipping costs will be calculated once you have provided address.</p>
+                        <h3 class="mb-8">CALCULATE SHIPPING</h3>
+                        <label for="location" class="text-gray-600 mb-3">SELECT A LOCATION</label><br>
+                        <input type="text" class="border-b-2 border-gray-300 w-full"><br>
+                        <label for="city" class="text-gray-600 mb-3">CITY</label><br>
+                        <input type="text" class="border-b-2 border-gray-300 w-full"><br>
+                        <label for="code" class="text-gray-600 mb-3">POST CODE/ZIP</label><br>
+                        <input type="text" class="border-b-2 border-gray-300 w-full mb-3"><br>
+                        <button class="text-lime-600 border-2 border-lime-600 py-2 px-8 w-full mb-10">UPDATE TOTALS</button>
+                    </div>
+                </div>
+                <div>
+                    <hr>
+                    <div class="flex justify-between mb-10">
+                        <p>TOTAl</p>
+                        <p class="font-bold">$87,00</p>
+                    </div>
+                    <button class="text-white bg-orange-600 py-2 px-10 border-black border-[1px] w-full">PROCEED TO CHECKOUT</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

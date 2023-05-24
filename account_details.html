@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="grid justify-items-center">
+    <header class="mb-2 w-[70%]">
+        <h2 class="text-center mb-10 font-bold tracking-widest">MY ACCOUNT</h2>
+        <nav class="mb-5">
+            <ul class="flex gap-4 justify-between">
+                <li><a href="dashbord.html" class="text-gray-500">Dashboard</a></li>
+                <li><a href="order.html" class="text-gray-500">Order</a></li>
+                <li><a href="download.html" class="text-gray-500">Download</a></li>
+                <li><a href="address.html" class="text-gray-500">Addresses</a></li>
+                <li><a href="account_details.html" class="text-gray-500">Account details</a></li>
+                <li><a href="logout.html" class="text-gray-500">Logout</a></li>
+            </ul>
+        </nav>
+        <hr class="mb-5">
+    </header>
+
+    <main class="mb-40">
+        <h1 class="font-bold text-center mb-5 text-lg">Account Details</h1>
+        <div>
+            <label for="name" class="text-gray-800">First name*</label><br>
+            <input type="text" class="w-full border-b-2 border-gray-200 mb-10"><br>
+            <label for="name" class="text-gray-800">Last name*</label><br>
+            <input type="text" class="w-full border-b-2 border-gray-200 mb-10"><br>
+            <label for="name" class="text-gray-800">Display name*</label><br>
+            <input type="text" class="w-full border-b-2 border-gray-200 mb-5">
+            <p class="text-gray-500 text-sm mb-10">This will be how your name will be displayed in the account section and in reviews.</p>
+            <label for="email" class="text-gray-800">Email address*</label><br>
+            <input type="email" class="mb-12 w-full border-b-2 border-gray-200"><br>
+            <h4 class="font-bold mb-12">Password change</h4>
+            <label for="password" class="text-gray-800">Current password (leave blank to leave unchanged)</label><br>
+            <input type="password" class="w-full border-b-2 border-gray-200 mb-10"><br>
+            <label for="password" class="text-gray-800">New password (leave blank to leave unchanged)</label><br>
+            <input type="password" class="w-full border-b-2 border-gray-200 mb-10"><br>
+            <label for="password" class="text-gray-800">Confirm new password</label><br>
+            <input type="password" class="w-full border-b-2 border-gray-200 mb-10">
+        </div>
+        <button class="bg-orange-600 text-white w-full py-2 px-10">SAVE CHANGES</button>
+    </main>
+    </div>
+</body>
+</html>
